@@ -83,9 +83,9 @@ for s in range(0,9):
    
    if not value :
       print('Atika not found')
-      # Takes a screenshot
+      # Take a screenshot
       result = device.takeSnapshot()
-      # Writes the screenshot to a file
+      # Write the screenshot to a file
       #result.writeToFile( path + '/lost_SB_logo_level.png','png')
       result.writeToFile('C:\Users\G603606\Results_MonkeyRunner\lost_SB_logo_level' + date + '.png','png')
       # quit properly the monkeyrunner
@@ -140,15 +140,15 @@ for s in range(0,9):
    device.touch(489./1080*WIDTH_PHONE,826./2032*HEIGHT_PHONE,'DOWN_AND_UP')
    MonkeyRunner.sleep(1)
    
-   # mot de passe wifi
+   # wifi password
    # vodafone90F0
-   device.type('6XXJ2L7DXUZLRS')
+   # device.type('6XXJ2L7DXUZLRS')
    # ONO6447 
    # device.type('EVrbNuHk696n')
    # VodafoneB269
    # device.type('UMDPIUGBQ9TWS2')
-   # vodafone42AO
-   #  device.type('DDZJRJZJFTYYQG')
+   # vodafone42AO --rooter access DWMYJMNL --
+   device.type('DDZJRJZJFTYYQG')
    
    
    MonkeyRunner.sleep(1)

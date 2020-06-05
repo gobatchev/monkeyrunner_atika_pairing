@@ -148,8 +148,9 @@ for s in range(0,9):
    # VodafoneB269
    # device.type('UMDPIUGBQ9TWS2')
    # vodafone42AO --rooter access DWMYJMNL --
-   device.type('DDZJRJZJFTYYQG')
-   
+   # device.type('DDZJRJZJFTYYQG')
+   # vodafoneA148
+   device.type('MKKWHP477JDXZH')
    
    MonkeyRunner.sleep(1)
    
